@@ -1,0 +1,44 @@
+.navigation {
+    & > ul {
+        padding: 0;
+        @include flex($align: flex-end);
+        font-size: 1.2rem;
+        font-weight: 600;
+
+        @include media-tablet {
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        & li {
+            padding: 0 .5rem;
+        }
+    }
+
+    @include media-laptop {
+        padding-top: 3rem;
+    }
+
+    @include media-mobile {
+        display: none;
+    }
+}
+
+.navigation__mobile {
+    max-width: $mobile-width;
+    @include flex($direction: column, $align: center);
+    margin-top: -3rem;
+    padding-top: 4rem;
+    background-color: $color-light;
+    color: $color-additional;
+    & > ul {
+        padding: 4rem;
+        @include flex($direction: column, $align: center);
+        font-size: 1.2rem;
+        font-weight: 600;
+
+        & li {
+            padding: 1rem;
+        }
+    }
+}

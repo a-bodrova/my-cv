@@ -1,11 +1,13 @@
-
 # Anna Bodrova #
-
 
 ### Junior Frontend Developer ###
 
+-----------------------------------------------------------------------------------
 
-----------------------------------------------------------------------------------
+> **Somewhere, something incredible is waiting to be known**
+>
+
+-----------------------------------------------------------------------------------
 
 ### Contacts ###
 
@@ -17,7 +19,6 @@
 
 -----------------------------------------------------------------------------------
 
-> **The way of a thousand li begins with the first step**
 
 Hi, I am Anna, I'm a career changer.
 I have more than 10 years experience in accounting management
@@ -26,13 +27,21 @@ I'm planning be a fullstack developer in two years. I have
 no relevant work experience in commercial development, but I’m ready to learn hard.
 
 ----------------------------------------------------------------------------------
-### Courses ###
 
-+ ["Combinatorics" from MIPT](https://coursera.org/share/3d640ac0ea1977a0fda0b2780a69224b) - completed
-+ ["Probability theory basics" from MIPT](https://www.coursera.org/learn/probability-theory-basics/home/welcome) - in progress
-+ ["Discrete math" from HSE](https://www.coursera.org/learn/discrete-math/home/welcome) - in progress
-+ ["Basics of HTML/CSS" from MIPT & Yandex](https://coursera.org/share/dd424b84b03aba84bbb06dc18cea5eed) - completed
-+ ["Javascript, part 1: basics and functions" from MIPT & Yandex](https://coursera.org/share/3d077feead563eb46630d0804959c7e0) - completed
+### Skills ###
+
++ HTML, CSS
++ Javascript, basics
++ GIT & GitHub
++ Adobe Photoshop, Figma
+
+----------------------------------------------------------------------------------
+
+### Languages ###
+
++ English - A2
++ German - A1
++ Russian - native
 
 ----------------------------------------------------------------------------------
 
@@ -77,6 +86,12 @@ class tree {
 
 ```
 
-> **Somewhere, something incredible is waiting to be known**
+### Courses ###
+
++ ["Combinatorics" from MIPT](https://coursera.org/share/3d640ac0ea1977a0fda0b2780a69224b) - completed
++ ["Probability theory basics" from MIPT](https://www.coursera.org/learn/probability-theory-basics/home/welcome) - in progress
++ ["Discrete math" from HSE](https://www.coursera.org/learn/discrete-math/home/welcome) - in progress
++ ["Basics of HTML/CSS" from MIPT & Yandex](https://coursera.org/share/dd424b84b03aba84bbb06dc18cea5eed) - completed
++ ["Javascript, part 1: basics and functions" from MIPT & Yandex](https://coursera.org/share/3d077feead563eb46630d0804959c7e0) - completed
 
 ----------------------------------------------------------------------------------

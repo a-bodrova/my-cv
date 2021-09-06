@@ -1,0 +1,25 @@
+{
+  "name": "rsschool-cv",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "highlight.js": "^11.2.0",
+    "sass": "^1.39.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "style": "sass --watch src/sass/style.scss src/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-bodrova/rsschool-cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-bodrova/rsschool-cv/issues"
+  },
+  "homepage": "https://github.com/a-bodrova/rsschool-cv#readme"
+}
