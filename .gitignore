@@ -1,0 +1,5 @@
+src/sass/*
+src/style.css.map
+node_modules/*
+package-lock.json
+package.json
