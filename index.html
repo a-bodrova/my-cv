@@ -23,18 +23,67 @@
             <div class="texts">
               <h1>Anna Bodrova</h1>
               <h2>Junior Frontend Developer</h2>
-              <img src="https://www.codewars.com/users/a-bodrova/badges/small" alt="Codewars badge"/>
             </div>
           </div>
           <div class="quote-wrap">
             <blockquote>"Somewhere, something incredible is waiting to be known"</blockquote>
+            <nav class="navigation">
+              <ul>
+                <li><a href="#contacts" class="link__hovered">Contacts</a></li>
+                <li><a href="#aboutme" class="link__hovered">About&nbsp;me</a></li>
+                <li><a href="#courses" class="link__hovered">Courses</a></li>
+                <li><a href="#skills" class="link__hovered">Skills</a></li>
+                <li><a href="#lang" class="link__hovered">Languages</a></li>
+                <li><a href="#projects" class="link__hovered">Projects</a></li>
+                <li><a href="#code" class="link__hovered">Code&nbsp;example</a></li>
+              </ul>
+            </nav>
+            <span class="hamburger">
+              <span class="hamburger__line"></span>
+            </span>
           </div>
       </header>
       <main>
-        <div class="main-wrap">
           <section class="section">
             <div class="headline">
-              <h3>About me</h3>
+              <h3 id="contacts">Contacts</h3>
+            </div>
+              <ul class="contacts">
+                <li>
+                  <h5>
+                  <img src="./src/png/email_gmail.png" alt="go to write e-mail" class="icons"/>
+                  <a href="mailto:soulwent94@gmail.com" target="_blank" class="link__hovered">
+                    soulwent94@gmail.com
+                  </a>
+                </h5>
+                </li>
+                <li>
+                  <h5>
+                  <img src="./src/png/GitHub-Mark-32px.png" alt="go to Github profile" class="icons"/>
+                  <a href="https://github.com/a-bodrova" target="_blank" class="link__hovered">                    
+                    GitHub
+                  </a>
+                </h5>
+                </li>
+                <li>
+                  <h5>
+                  <img src="./src/png/LI-In-Bug.png" alt="go to LinkedIn profile" class="icons"/>
+                  <a href="https://ru.linkedin.com/in/anna-b-4b989818b/" target="_blank" class="link__hovered">                    
+                    LinkedIn
+                  </a>
+                </h5>
+                </li>
+                <li>
+                  <h5>
+                  <img src="./src/png/Logo.png" alt="go to Telegram" class="icons"/>
+                  <a href="https://t.me/Nittka" target="_blank" class="link__hovered">                    
+                    Telegram
+                  </a>
+                </h5>
+                </li>
+              </ul>
+            <div class="headline">
+              <h3 id="aboutme">About me</h3>
             </div>
               <p>
                 Hi, I am Anna, I'm a career changer. I have more than 10 years
@@ -44,46 +93,56 @@
                 commercial development, but I’m ready to learn hard.
               </p>
             <div class="headline">
-              <h3>Courses</h3>
+              <h3 id="courses">Courses</h3>
             </div>
               <ul>
                 <li>
-                  <a href="https://coursera.org/share/3d640ac0ea1977a0fda0b2780a69224b" target="_blank">
-                    <h5>"Combinatorics" from MIPT</h5>
+                  <h5>
+                  <a href="https://coursera.org/share/3d640ac0ea1977a0fda0b2780a69224b" target="_blank" class="link__hovered">
+                    "Combinatorics" from MIPT
                     </a>
+                  </h5>
                 </li>
                 <li>
-                  <a href="https://www.coursera.org/learn/probability-theory-basics/home/welcome" target="_blank">
-                    <h5>"Probability theory basics" from MIPT</h5>
+                  <h5>
+                    <a href="https://www.coursera.org/learn/probability-theory-basics/home/welcome" target="_blank" class="link__hovered">
+                      "Probability theory basics" from MIPT
                     </a>
+                  </h5>
                 </li>
                 <li>
-                  <a href="https://www.coursera.org/learn/discrete-math/home/welcome" target="_blank">
-                    <h5>"Discrete math" from HSE</h5>
+                  <h5>
+                    <a href="https://www.coursera.org/learn/discrete-math/home/welcome" target="_blank" class="link__hovered">
+                      "Discrete math" from HSE
                     </a>
+                  </h5>
                 </li>
                 <li>
-                  <a href="https://coursera.org/share/dd424b84b03aba84bbb06dc18cea5eed" target="_blank">
-                    <h5>"Basics of HTML/CSS" from MIPT & Yandex</h5>
+                  <h5>
+                    <a href="https://coursera.org/share/dd424b84b03aba84bbb06dc18cea5eed" target="_blank" class="link__hovered">
+                      "Basics of HTML/CSS" from MIPT & Yandex
                     </a>
+                  </h5>
                 </li>
                 <li>
-                  <a href="https://coursera.org/share/3d077feead563eb46630d0804959c7e0" target="_blank">
-                    <h5>"Javascript, part 1: basics and functions" from MIPT & Yandex</h5>
-                    </a>
+                  <h5>
+                  <a href="https://coursera.org/share/3d077feead563eb46630d0804959c7e0" target="_blank" class="link__hovered">
+                    "Javascript, part 1: basics and functions" from MIPT & Yandex
+                  </a>
+                  </h5>
                 </li>
               </ul>
             <div class="headline">
-              <h3>Skills</h3>
+              <h3 id="skills">Skills</h3>
             </div>
               <ul>
-                <li><h5>HTML5, CSS3, SASS</h5></li>
+                <li><h5>HTML5, CSS3, SCSS</h5></li>
                 <li><h5>Javascript, basics</h5></li>
                 <li><h5>GIT & GitHub</h5></li>
                 <li><h5>Adobe Photoshop, Figma</h5></li>
               </ul>
             <div class="headline">
-              <h3>Languages</h3>
+              <h3 id="lang">Languages</h3>
             </div>
               <ul>
                 <li><h5>Russian - native</h5></li>
@@ -91,112 +150,80 @@
                 <li><h5>German - A1</h5></li>
               </ul>
             <div class="headline">
-              <h3>Projects</h3>
+              <h3 id="projects">Projects</h3>
             </div>
             <div class="block-item">
               <div class="project-card">
                 <h4>Project "Museum"</h4>
                 <p>RS School - JS/FE Pre-School, 2021</p>
                 <a href="https://museum-stage0-a-bodrova.netlify.app" target="_blank" rel="noopener noreferrer">
-                  <img src="./src/img/projects-museum-small.jpg" alt="Project Museum"/>
+                  <img src="./src/img/projects-museum-small.jpg" alt="Project Museum" title="Museum"/>
                 </a>
               </div>
               <div class="project-card">
                 <h4>Project "Vertical slider"</h4>
                 <p>RS School - JS/FE Pre-School, 2021</p>
                 <a href="https://https://vertical-slider-a-bodrova.netlify.app" target="_blank" rel="noopener noreferrer">
-                  <img src="./src/img/projects-slider-preview.jpg" alt="Project Vertical Slider"/>
+                  <img src="./src/img/projects-slider-preview.jpg" alt="Project Vertical Slider" title="Vertical Slider"/>
                 </a>
               </div>
               <div class="project-card">
                 <h4>Project "Custom Video Player"</h4>
                 <p>RS School - JS/FE Pre-School, 2021</p>
                 <a href="https://custom-video-player-a-bodrova.netlify.app" target="_blank" rel="noopener noreferrer">
-                  <img src="./src/img/projects-player-preview.jpg" alt="Project Custom Video Player"/>
+                  <img src="./src/img/projects-player-preview.jpg" alt="Project Custom Video Player" title="Custom Video Player"/>
                 </a>
               </div>
               <div class="project-card">
                 <h4>Project "Animated cartoon on pure CSS"</h4>
                 <p>MIPT & Yandex - Basics of HTML/CSS, 2020</p>
                 <a href="https://mult-yandex.netlify.app" target="_blank" rel="noopener noreferrer">
-                  <img src="./src/img/projects-cartoon-preview.jpg" alt="Project Animated cartoon on pure CSS"/>
+                  <img src="./src/img/projects-cartoon-preview.jpg" alt="Project Animated cartoon on pure CSS" title="Animated cartoon"/>
                 </a>
               </div>
             </div>
             <div class="headline">
-              <h3>Code example</h3>
+              <h3 id="code">Code example</h3>
             </div>
               <h4>"The Deca Tree" from CODEWARS</h4>
               <pre>
                 <code class="language-javascript">
-                    class tree {
-                        constructor(trunks) {
-                            this.trunks = trunks;
-                            this.branches = trunks * 10;
-                            this.twigs = trunks * 100;
-                            this.leaves = trunks * 1000;
-                        }
-                            
-                        chopTrunk(n) {
-                            this.trunks = Math.max(this.trunks - n, 0);
-                            this.chopBranch(n * 10);
-                        }
-                            
-                        chopBranch(n) {
-                            this.branches = Math.max(this.branches - n, 0);
-                            this.chopTwig(n * 10);
-                        }
-                            
-                        chopTwig(n) {
-                            this.twigs = Math.max(this.twigs - n, 0);
-                            this.chopLeaf(n * 10);
-                        }
-                            
-                        chopLeaf(n) {
-                            this.leaves = Math.max(this.leaves - n, 0);
-                        }
-                            
-                        describe() {
-                            return
-                            `This tree has ${this.trunks} trunks, ${this.branches} branches, ${
-                            this.twigs} twigs and ${this.leaves} leaves.`
-                        }                            
-                    }
-                    </code>
-                </pre>
+class tree {
+  constructor(trunks) {
+    this.trunks = trunks;
+    this.branches = trunks * 10;
+    this.twigs = trunks * 100;
+    this.leaves = trunks * 1000;
+  }
+                
+  chopTrunk(n) {
+    this.trunks = Math.max(this.trunks - n, 0);
+    this.chopBranch(n * 10);
+  }
+                          
+  chopBranch(n) {
+    this.branches = Math.max(this.branches - n, 0);
+    this.chopTwig(n * 10);
+  }
+                          
+  chopTwig(n) {
+    this.twigs = Math.max(this.twigs - n, 0);
+    this.chopLeaf(n * 10);
+  }
+                          
+  chopLeaf(n) {
+    this.leaves = Math.max(this.leaves - n, 0);
+  }
+                          
+  describe() {
+    return
+      `This tree has ${this.trunks} trunks, ${this.branches} branches, ${
+        this.twigs} twigs and ${this.leaves} leaves.`
+      }                            
+  }
+                </code>
+              </pre>
           </section>
-          <aside class="aside">
-            <div class="headline">
-              <h3>Contacts</h3>
-            </div>
-              <ul>
-                <li>
-                  <img src="./src/png/email_gmail.png" alt="go to write e-mail" class="icons"/>
-                  <a href="mailto:soulwent94@gmail.com" target="_blank">
-                    soulwent94@gmail.com
-                  </a>
-                </li>
-                <li>
-                  <img src="./src/png/GitHub-Mark-32px.png" alt="go to Github profile" class="icons"/>
-                  <a href="https://github.com/a-bodrova" target="_blank">                    
-                    GitHub
-                  </a>
-                </li>
-                <li>
-                  <img src="./src/png/LI-In-Bug.png" alt="go to LinkedIn profile" class="icons"/>
-                  <a href="https://ru.linkedin.com/in/anna-b-4b989818b/" target="_blank">                    
-                    LinkedIn
-                  </a>
-                </li>
-                <li>
-                  <img src="./src/png/Logo.png" alt="go to Telegram" class="icons"/>
-                  <a href="https://t.me/Nittka" target="_blank">                    
-                    Telegram
-                  </a>
-                </li>
-              </ul>
-            </aside>
-        </div>
       </main>
       <footer class="footer">
         <div class="github">
@@ -205,6 +232,9 @@
           </a>
         </div>
         <div class="year">&copy;2021</div>
+        <div class="link-pr">
+          <a href="#" class="link__hovered">Link to Pull Request</a>
+        </div>
         <div class="rsschool">
           <a href="https://rs.school/js/" target="_blank">
             <img src="./src/png/rs_school_js.svg" alt="Link to RS School" width="150"/>
@@ -212,5 +242,6 @@
         </div>
       </footer>
     </div>
+    <script src="src/script.js"></script>
   </body>
 </html>
