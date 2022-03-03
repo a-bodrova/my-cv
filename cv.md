@@ -23,17 +23,18 @@
 Hi, I am Anna, I'm a career changer.
 I have more than 10 years experience in accounting management
 at the advertising agency, but I want to change my career now.
-I'm planning be a fullstack developer in two years. I have
+I'm planning be a fullstack developer during next few years. I have
 no relevant work experience in commercial development, but I’m ready to learn hard.
 
 ----------------------------------------------------------------------------------
 
 ### Skills ###
 
-+ HTML, CSS
-+ Javascript, basics
-+ GIT & GitHub
-+ Adobe Photoshop, Figma
++ HTML, CSS, Sass(SCSS)
++ Javascript/Typescript
++ Webpack
++ GIT/GitHub
++ Figma, Adobe Photoshop
 
 ----------------------------------------------------------------------------------
 
@@ -93,5 +94,7 @@ class tree {
 + ["Discrete math" from HSE](https://www.coursera.org/learn/discrete-math/home/welcome) - in progress
 + ["Basics of HTML/CSS" from MIPT & Yandex](https://coursera.org/share/dd424b84b03aba84bbb06dc18cea5eed) - completed
 + ["Javascript, part 1: basics and functions" from MIPT & Yandex](https://coursera.org/share/3d077feead563eb46630d0804959c7e0) - completed
++ ["Javascript/Frontend 2021Q3"](https://rs.school/js/) - completed
++ ["Разработка на React"](https://rs.school/react/) - in future
 
 ----------------------------------------------------------------------------------

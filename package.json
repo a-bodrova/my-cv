@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a-bodrova/rsschool-cv.git"
+    "url": "git+https://github.com/a-bodrova/my-cv.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/a-bodrova/rsschool-cv/issues"
+    "url": "https://github.com/a-bodrova/my-cv/issues"
   },
-  "homepage": "https://github.com/a-bodrova/rsschool-cv#readme"
+  "homepage": "https://github.com/a-bodrova/my-cv#readme"
 }
