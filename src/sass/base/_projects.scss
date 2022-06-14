@@ -25,7 +25,18 @@
 
         & img {
             width: 100%;
-            margin: 0 auto;           
+            margin: 0 auto;
+            display: block;
         }
     }
+}
+
+.headline.code__title {
+  margin-bottom: 15px;
+}
+
+.indent {
+  width: 100%;
+  height: 20px;
+  background-color: transparent;
 }

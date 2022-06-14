@@ -320,4 +320,15 @@ code, pre, pre code {
   word-break: break-all;
 }
 
+.headline.code__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.codewars {
+  display: block;
+  margin-right: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
