@@ -170,10 +170,10 @@
             </div>
             <div class="block-item">
               <div class="project-card">
-                <h4>Project "Shelter" - HTML, CSS, Vanilla JS</h4>
-                <p>RS School - JavaScript/Front-end, 2022</p>
-                <a href="https://a-bodrova.github.io/cozy-house/" target="_blank" rel="noopener noreferrer">
-                  <img src="./src/img/projects-shelter-preview.webp" alt="Project Shelter" title="Cozy House"/>
+                <h4>Project "Animated cartoon on pure CSS" - HTML, CSS</h4>
+                <p>MIPT & Yandex - Basics of HTML/CSS, 2020</p>
+                <a href="https://mult-yandex.netlify.app" target="_blank" rel="noopener noreferrer">
+                  <img src="./src/img/projects-cartoon-preview.jpg" alt="Project Animated cartoon on pure CSS" title="Animated cartoon"/>
                 </a>
               </div>
               <div class="project-card">
@@ -184,17 +184,17 @@
                 </a>
               </div>
               <div class="project-card">
-                <h4>Project "Christmas Decorations" - TypeScript, SCSS, Webpack, ESLint</h4>
-                <p>RS School - JavaScript/Front-end, 2021</p>
-                <a href="https://rolling-scopes-school.github.io/a-bodrova-JSFE2021Q3/christmas-task_2/#main" target="_blank" rel="noopener noreferrer">
-                  <img src="./src/img/projects-christmas-preview.webp" alt="Project Christmas Decorations" title="Christmas Decorations"/>
+                <h4>Project "Shelter" - HTML, CSS, Vanilla JS</h4>
+                <p>RS School - JavaScript/Front-end, 2022</p>
+                <a href="https://a-bodrova.github.io/cozy-house/" target="_blank" rel="noopener noreferrer">
+                  <img src="./src/img/projects-shelter-preview.webp" alt="Project Shelter" title="Cozy House"/>
                 </a>
               </div>
               <div class="project-card">
-                <h4>Project "Animated cartoon on pure CSS" - HTML, CSS</h4>
-                <p>MIPT & Yandex - Basics of HTML/CSS, 2020</p>
-                <a href="https://mult-yandex.netlify.app" target="_blank" rel="noopener noreferrer">
-                  <img src="./src/img/projects-cartoon-preview.jpg" alt="Project Animated cartoon on pure CSS" title="Animated cartoon"/>
+                <h4>Project "Dino game" - Javascript, SCSS, Webpack</h4>
+                <p>My own small game, based on the Dino Game by Google Chrome, 2022</p>
+                <a href="https://a-bodrova.github.io/digital-design/dino-game/" target="_blank" rel="noopener noreferrer">
+                  <img src="./src/img/projects-dino-game-preview.webp" alt="Project Dino Game" title="Dino Game"/>
                 </a>
               </div>
             </div>
@@ -204,41 +204,27 @@
                 <img class="codewars" src="https://www.codewars.com/users/a-bodrova/badges/small" alt="Codewars bage"/>
               </a>
             </div>
-            <h4>"The Deca Tree" from CODEWARS</h4>
+            <h4>"Let's recycle!" from CODEWARS</h4>
               <pre>
                 <code class="hljs">
-class tree {
-  constructor(trunks) {
-    this.trunks = trunks;
-    this.branches = trunks * 10;
-    this.twigs = trunks * 100;
-    this.leaves = trunks * 1000;
-  }
-
-  chopTrunk(n) {
-    this.trunks = Math.max(this.trunks - n, 0);
-    this.chopBranch(n * 10);
-  }
-
-  chopBranch(n) {
-    this.branches = Math.max(this.branches - n, 0);
-    this.chopTwig(n * 10);
-  }
-
-  chopTwig(n) {
-    this.twigs = Math.max(this.twigs - n, 0);
-    this.chopLeaf(n * 10);
-  }
-
-  chopLeaf(n) {
-    this.leaves = Math.max(this.leaves - n, 0);
-  }
-
-  describe() {
-    return
-      `This tree has ${this.trunks} trunks, ${this.branches} branches, ${
-        this.twigs} twigs and ${this.leaves} leaves.`
-      }
+  function recycle(array) {
+    const containers = array.reduce((acc, item) => {
+        acc[item.material].push(item.type);
+      if (item.secondMaterial) {
+        acc[item.secondMaterial].push(item.type);
+      };
+      return acc;
+    }, {
+      paper: [],
+      glass: [],
+      organic: [],
+      plastic: [],
+    });
+    const res = [];
+    for (const value of Object.values(containers)) {
+      res.push(value);
+    }
+    return res;
   }
                 </code>
               </pre>
@@ -250,12 +236,12 @@ class tree {
             <img src="./src/png/GitHub_logo.png" alt="Link to GitHub" />
           </a>
         </div>
-        <div class="year">&copy;2021</div>
-        <div class="rsschool">
+        <div class="year">&copy;2022</div>
+        <!-- <div class="rsschool">
           <a href="https://rs.school/js/" target="_blank">
             <img src="./src/png/rs_school_js.svg" alt="Link to RS School" width="150"/>
           </a>
-        </div>
+        </div> -->
       </footer>
     </div>
     <script src="src/script.js"></script>
